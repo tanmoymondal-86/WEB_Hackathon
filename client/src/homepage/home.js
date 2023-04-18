@@ -19,9 +19,12 @@ export const Home = () => {
              Welcome To MintHub
         </div> 
         : null}
+        <div className="Home bg-gray-950 min-h-screen">
         <Outlet /> 
+        </div>
+        <Footer />
       </div>
-      <Footer />
+      
     </CryptoProvider>
   );
 }
