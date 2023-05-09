@@ -92,6 +92,7 @@ const fvalidate = (fund) => {
     email: Joi.string().email().required().label("email"),
   });
   return schema.validate(fund);
+  
 };
 
-module.exports = { User, Order, Fund, validate, ovalidate, fvalidate };
+module.exports = { User, Order, Fund, validate, ovalidate, fvalidate};
