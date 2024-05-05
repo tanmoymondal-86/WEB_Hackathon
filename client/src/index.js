@@ -14,7 +14,7 @@ import CryptoDetails from './Market/components/CryptoDetails';
 import { Transaction } from "./transaction/components/cr2cr"
 import { Fundout } from './transaction/components/fundout';
 import { Details } from './transaction/components/c2c-details.js';
- import { Orders } from './transaction/components/orders';
+import { Orders } from './transaction/components/orders';
 
 const router = createBrowserRouter([
   {  
